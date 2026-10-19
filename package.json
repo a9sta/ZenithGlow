@@ -1,0 +1,17 @@
+{
+  "name": "zenithglow",
+  "version": "1.0.0",
+  "private": true,
+  "description": "제니스글로우 출장마사지 — 땅을 열 토막으로 잘라 허리를 재 쓴 지역 안내 정적 사이트",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node src/build.mjs",
+    "regions": "node --max-old-space-size=4096 scripts/build-regions.mjs",
+    "check": "node scripts/check.mjs",
+    "simil": "node scripts/simil.mjs",
+    "serve": "node scripts/serve.mjs"
+  }
+}
